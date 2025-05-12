@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo snap install obsidian
+sudo snap install obsidian --classic
