@@ -17,6 +17,7 @@ source "$SCRIPT_DIR/source/wezterm.sh"
 source "$SCRIPT_DIR/source/todoist.sh"
 source "$SCRIPT_DIR/source/gnomeSetup.sh"
 source "$SCRIPT_DIR/source/brave.sh"
+source "$SCRIPT_DIR/source/lazygit.sh"
 
 
 # initial stow
