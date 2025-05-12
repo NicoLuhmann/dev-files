@@ -23,12 +23,6 @@ gsettings set org.gnome.desktop.wm.keybindings activate-window-menu "[]"
 # Disable ubuntu dock
 gnome-extensions disable ubuntu-dock@ubuntu.com
 
-# theme and wallpaper
-gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
-gsettings set org.gnome.desktop.background picture-uri "file://${SCRIPT_DIR}/utils/mango.png"
-gsettings set org.gnome.desktop.background picture-options "scaled"
-
-
 # Install gnome-extensions-cli only if not already installed
 if ! command -v ~/.local/bin/gext &> /dev/null; then
   pipx install gnome-extensions-cli --system-site-packages
