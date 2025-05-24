@@ -31,6 +31,7 @@ source "$SCRIPT_DIR/todoist.sh"
 source "$SCRIPT_DIR/gnomeSetup.sh"
 source "$SCRIPT_DIR/lazygit.sh"
 source "$SCRIPT_DIR/chrome.sh"
+source "$SCRIPT_DIR/discord.sh"
 
 # initial stow
 cd ~/dev-files
