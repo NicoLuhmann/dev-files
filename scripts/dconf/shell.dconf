@@ -7,7 +7,7 @@ welcome-dialog-last-shown-version='42.9'
 
 [extensions/caffeine]
 nightlight-control='never'
-user-enabled=true
+user-enabled=false
 
 [extensions/dash-to-dock]
 dash-max-icon-size=48
@@ -45,11 +45,17 @@ index=1
 [extensions/paperwm/workspaces/3dad423f-e86a-43e1-b5ef-1b02c480e94c]
 index=0
 
+[extensions/paperwm/workspaces/40b534d0-c674-4bef-9820-67a94a0cb300]
+index=0
+
 [extensions/paperwm/workspaces/43df4f0b-8483-45d3-bb1c-4ff4a394f15c]
 index=1
 
 [extensions/paperwm/workspaces/53e847f7-4bb9-41c1-8261-5e3593394126]
 index=0
+
+[extensions/paperwm/workspaces/6b6c84b1-f778-47dc-95ad-c5abcfff7252]
+index=1
 
 [extensions/paperwm/workspaces/a0e74354-db60-4137-9613-3690097a335c]
 index=2
@@ -57,6 +63,9 @@ index=2
 [extensions/paperwm/workspaces/b2327ed9-cac1-46f3-ac57-8c33676e9af0]
 background=''
 color='rgb(53,132,228)'
+index=2
+
+[extensions/paperwm/workspaces/c5daba03-da85-490e-92c7-0a93a4d51027]
 index=2
 
 [extensions/paperwm/workspaces/e3e9cdba-7ebc-4895-bb83-50543c1905e2]
