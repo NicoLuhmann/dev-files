@@ -1,8 +1,13 @@
 [/]
+disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com']
-enabled-extensions=['paperwm@paperwm.github.com', 'switcher@landau.fi']
+enabled-extensions=['paperwm@paperwm.github.com', 'switcher@landau.fi', 'caffeine@patapon.info']
 favorite-apps=['org.gnome.Terminal.desktop', 'code.desktop', 'firefox_firefox.desktop', 'obsidian_obsidian.desktop', 'todoist_todoist.desktop']
 welcome-dialog-last-shown-version='42.9'
+
+[extensions/caffeine]
+nightlight-control='never'
+user-enabled=false
 
 [extensions/dash-to-dock]
 dash-max-icon-size=48
@@ -33,6 +38,15 @@ background=''
 color='rgb(143,240,164)'
 index=1
 
+[extensions/paperwm/workspaces/3dad423f-e86a-43e1-b5ef-1b02c480e94c]
+index=0
+
+[extensions/paperwm/workspaces/43df4f0b-8483-45d3-bb1c-4ff4a394f15c]
+index=1
+
+[extensions/paperwm/workspaces/a0e74354-db60-4137-9613-3690097a335c]
+index=2
+
 [extensions/paperwm/workspaces/b2327ed9-cac1-46f3-ac57-8c33676e9af0]
 background=''
 color='rgb(53,132,228)'
@@ -46,7 +60,7 @@ index=0
 [extensions/switcher]
 font-size=uint32 22
 icon-size=uint32 25
-launcher-stats='{"org.gnome.Extensions.desktop":1,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":1,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1}'
+launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":1}'
 max-width-percentage=uint32 50
 
 [keybindings]

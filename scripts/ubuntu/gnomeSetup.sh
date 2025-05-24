@@ -15,6 +15,7 @@ if ! command -v ~/.local/bin/gext &> /dev/null; then
 fi
 
 EXTENSIONS=(
+  "caffeine@patapon.info"
   "switcher@landau.fi"
   "paperwm@paperwm.github.com"
 )
