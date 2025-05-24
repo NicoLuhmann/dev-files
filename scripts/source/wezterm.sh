@@ -7,3 +7,4 @@ install_packages wezterm
 # Set WezTerm as the default terminal emulator
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/wezterm 50
 sudo update-alternatives --set x-terminal-emulator /usr/bin/wezterm
+gsettings set org.gnome.desktop.default-applications.terminal exec wezterm

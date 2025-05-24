@@ -58,6 +58,10 @@ config.font = wezterm.font_with_fallback({
   })
 config.font_size = 14
 
+-- Scrolling
+config.scrollback_lines = 10000
+config.enable_scroll_bar = true
+
 -- config.window_decorations = "RESIZE"
 
 -- tmux
