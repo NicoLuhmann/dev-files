@@ -7,7 +7,7 @@ welcome-dialog-last-shown-version='42.9'
 
 [extensions/caffeine]
 nightlight-control='never'
-user-enabled=false
+user-enabled=true
 
 [extensions/dash-to-dock]
 dash-max-icon-size=48
@@ -19,6 +19,7 @@ show-mounts=true
 show-trash=true
 
 [extensions/paperwm]
+cycle-width-steps=[0.25, 0.33000000000000002, 0.5, 0.66000000000000003]
 horizontal-margin=5
 restore-attach-modal-dialogs='true'
 restore-edge-tiling='true'
@@ -27,11 +28,14 @@ restore-workspaces-only-on-primary='true'
 use-default-background=false
 vertical-margin=5
 vertical-margin-bottom=5
-window-gap=5
+window-gap=10
 winprops=@as []
 
 [extensions/paperwm/workspaces]
 list=['e3e9cdba-7ebc-4895-bb83-50543c1905e2', '2f0dfe49-3517-4f1f-90d6-b712f8656e5f', 'b2327ed9-cac1-46f3-ac57-8c33676e9af0']
+
+[extensions/paperwm/workspaces/2014af6c-d42c-437b-b9e9-4f2347b5b3d0]
+index=2
 
 [extensions/paperwm/workspaces/2f0dfe49-3517-4f1f-90d6-b712f8656e5f]
 background=''
@@ -43,6 +47,9 @@ index=0
 
 [extensions/paperwm/workspaces/43df4f0b-8483-45d3-bb1c-4ff4a394f15c]
 index=1
+
+[extensions/paperwm/workspaces/53e847f7-4bb9-41c1-8261-5e3593394126]
+index=0
 
 [extensions/paperwm/workspaces/a0e74354-db60-4137-9613-3690097a335c]
 index=2
@@ -57,10 +64,13 @@ background=''
 color='rgb(255,190,111)'
 index=0
 
+[extensions/paperwm/workspaces/fa115e09-3395-4556-9c10-4477536c21e8]
+index=1
+
 [extensions/switcher]
 font-size=uint32 22
 icon-size=uint32 25
-launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":1}'
+launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":3,"gnome-control-center.desktop":1}'
 max-width-percentage=uint32 50
 
 [keybindings]
