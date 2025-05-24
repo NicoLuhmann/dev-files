@@ -3,7 +3,7 @@
 # set script directory
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Source utils.sh from parent directory
-source "$SCRIPT_DIR/utils/utils.sh"
+source "$SCRIPT_DIR/utils.sh"
 
 install_packages libfuse2t64 curl git tar stow timeshift tmux
 

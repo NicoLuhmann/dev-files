@@ -16,7 +16,7 @@ fi
 
 EXTENSIONS=(
   "switcher@landau.fi"
-  "paperwm@papwerwm.github.com"
+  "paperwm@paperwm.github.com"
 )
 
 for ext in "${EXTENSIONS[@]}"; do
@@ -29,4 +29,4 @@ for ext in "${EXTENSIONS[@]}"; do
 done
 
 # Now load settings from dconf file
-dconf load /org/gnome/shell/extensions/ < "$SCRIPT_DIR/utils/extensionSettings.dconf"
+dconf load /org/gnome/shell/extensions/ < "$SCRIPT_DIR/dconf/extensionSettings.dconf"
