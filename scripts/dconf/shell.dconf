@@ -1,4 +1,10 @@
-[dash-to-dock]
+[/]
+disabled-extensions=['ding@rastersoft.com']
+enabled-extensions=['paperwm@paperwm.github.com', 'switcher@landau.fi']
+favorite-apps=['org.gnome.Terminal.desktop', 'code.desktop', 'firefox_firefox.desktop', 'obsidian_obsidian.desktop', 'todoist_todoist.desktop']
+welcome-dialog-last-shown-version='42.9'
+
+[extensions/dash-to-dock]
 dash-max-icon-size=48
 dock-fixed=false
 dock-position='BOTTOM'
@@ -7,7 +13,7 @@ multi-monitor=true
 show-mounts=true
 show-trash=true
 
-[paperwm]
+[extensions/paperwm]
 horizontal-margin=5
 restore-attach-modal-dialogs='true'
 restore-edge-tiling='true'
@@ -19,25 +25,31 @@ vertical-margin-bottom=5
 window-gap=5
 winprops=@as []
 
-[paperwm/workspaces]
+[extensions/paperwm/workspaces]
 list=['e3e9cdba-7ebc-4895-bb83-50543c1905e2', '2f0dfe49-3517-4f1f-90d6-b712f8656e5f', 'b2327ed9-cac1-46f3-ac57-8c33676e9af0']
 
-[paperwm/workspaces/2f0dfe49-3517-4f1f-90d6-b712f8656e5f]
+[extensions/paperwm/workspaces/2f0dfe49-3517-4f1f-90d6-b712f8656e5f]
 background=''
 color='rgb(143,240,164)'
 index=1
 
-[paperwm/workspaces/b2327ed9-cac1-46f3-ac57-8c33676e9af0]
+[extensions/paperwm/workspaces/b2327ed9-cac1-46f3-ac57-8c33676e9af0]
 background=''
 color='rgb(53,132,228)'
 index=2
 
-[paperwm/workspaces/e3e9cdba-7ebc-4895-bb83-50543c1905e2]
+[extensions/paperwm/workspaces/e3e9cdba-7ebc-4895-bb83-50543c1905e2]
 background=''
 color='rgb(255,190,111)'
 index=0
 
-[switcher]
+[extensions/switcher]
 font-size=uint32 22
 icon-size=uint32 25
+launcher-stats='{"org.gnome.Extensions.desktop":1,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":1,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1}'
 max-width-percentage=uint32 50
+
+[keybindings]
+focus-active-notification=@as []
+shift-overview-down=@as []
+shift-overview-up=@as []
