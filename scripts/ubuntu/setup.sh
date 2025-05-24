@@ -21,17 +21,16 @@ else
   exit 1
 fi
 
-
-source "$SCRIPT_DIR/source/docker.sh"
-source "$SCRIPT_DIR/source/neovim.sh"
-source "$SCRIPT_DIR/source/vscode.sh"
-source "$SCRIPT_DIR/source/obsidian.sh"
-source "$SCRIPT_DIR/source/nerdFonts.sh"
-source "$SCRIPT_DIR/source/starship.sh"
-source "$SCRIPT_DIR/source/todoist.sh"
-source "$SCRIPT_DIR/source/gnomeSetup.sh"
-source "$SCRIPT_DIR/source/lazygit.sh"
-source "$SCRIPT_DIR/source/chrome.sh"
+source "$SCRIPT_DIR/docker.sh"
+source "$SCRIPT_DIR/neovim.sh"
+source "$SCRIPT_DIR/vscode.sh"
+source "$SCRIPT_DIR/obsidian.sh"
+source "$SCRIPT_DIR/nerdFonts.sh"
+source "$SCRIPT_DIR/starship.sh"
+source "$SCRIPT_DIR/todoist.sh"
+source "$SCRIPT_DIR/gnomeSetup.sh"
+source "$SCRIPT_DIR/lazygit.sh"
+source "$SCRIPT_DIR/chrome.sh"
 
 # initial stow
 cd ~/dev-files
