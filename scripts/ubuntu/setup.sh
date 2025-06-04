@@ -9,7 +9,7 @@ source "$SCRIPT_DIR/utils.sh"
 UBUNTU_VERSION=$(lsb_release -rs)
 
 # install common packages
-install_packages curl git tar stow timeshift tmux wget
+install_packages curl git tar stow timeshift tmux wget htop
 if [[ "$UBUNTU_VERSION" == "22.04" ]]; then
   echo "Detected Ubuntu 22.04"
   install_packages libfuse2
