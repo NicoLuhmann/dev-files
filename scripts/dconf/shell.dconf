@@ -21,7 +21,8 @@ show-mounts=true
 show-trash=true
 
 [extensions/paperwm]
-cycle-width-steps=[0.25, 0.33000000000000002, 0.5, 0.66000000000000003]
+cycle-height-steps=[0.33000000000000002, 0.5, 0.66000000000000003]
+cycle-width-steps=[0.25, 0.33000000000000002, 0.5]
 horizontal-margin=5
 restore-attach-modal-dialogs='true'
 restore-edge-tiling='true'
@@ -85,7 +86,7 @@ index=1
 [extensions/switcher]
 font-size=uint32 22
 icon-size=uint32 25
-launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":3,"discord.desktop":1,"google-chrome.desktop":4,"gnome-control-center.desktop":2,"org.gnome.Nautilus.desktop":1}'
+launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":4,"discord.desktop":1,"google-chrome.desktop":4,"gnome-control-center.desktop":2,"org.gnome.Nautilus.desktop":1}'
 max-width-percentage=uint32 50
 
 [keybindings]
