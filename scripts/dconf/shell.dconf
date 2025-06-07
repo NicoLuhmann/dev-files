@@ -1,8 +1,10 @@
 [/]
+command-history=['lg']
 disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com']
 enabled-extensions=['paperwm@paperwm.github.com', 'switcher@landau.fi', 'caffeine@patapon.info']
 favorite-apps=['org.gnome.Terminal.desktop', 'code.desktop', 'firefox_firefox.desktop', 'obsidian_obsidian.desktop', 'todoist_todoist.desktop']
+had-bluetooth-devices-setup=true
 welcome-dialog-last-shown-version='42.9'
 
 [extensions/caffeine]
@@ -25,11 +27,15 @@ restore-attach-modal-dialogs='true'
 restore-edge-tiling='true'
 restore-keybinds='{"toggle-tiled-right":{"bind":"[\\"<Super>Right\\"]","schema_id":"org.gnome.mutter.keybindings"},"toggle-tiled-left":{"bind":"[\\"<Super>Left\\"]","schema_id":"org.gnome.mutter.keybindings"},"restore-shortcuts":{"bind":"[\\"<Super>Escape\\"]","schema_id":"org.gnome.mutter.wayland.keybindings"},"switch-to-workspace-last":{"bind":"[\\"<Super>End\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-applications":{"bind":"[\\"<Super>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-left":{"bind":"[\\"<Super>Page_Up\\",\\"<Super><Alt>Left\\",\\"<Control><Alt>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-down":{"bind":"[\\"<Super><Shift>Down\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-applications-backward":{"bind":"[\\"<Shift><Super>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-1":{"bind":"[\\"<Super>Home\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-right":{"bind":"[\\"<Super>Page_Down\\",\\"<Super><Alt>Right\\",\\"<Control><Alt>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"maximize":{"bind":"[\\"<Super>Up\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-group-backward":{"bind":"[\\"<Shift><Super>Above_Tab\\",\\"<Shift><Alt>Above_Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-right":{"bind":"[\\"<Super><Shift>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-left":{"bind":"[\\"<Super><Shift>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-up":{"bind":"[\\"<Super><Shift>Up\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"unmaximize":{"bind":"[\\"<Super>Down\\",\\"<Alt>F5\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-group":{"bind":"[\\"<Super>Above_Tab\\",\\"<Alt>Above_Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"shift-overview-down":{"bind":"[\\"<Super><Alt>Down\\"]","schema_id":"org.gnome.shell.keybindings"},"focus-active-notification":{"bind":"[\\"<Super>n\\"]","schema_id":"org.gnome.shell.keybindings"},"shift-overview-up":{"bind":"[\\"<Super><Alt>Up\\"]","schema_id":"org.gnome.shell.keybindings"},"rotate-video-lock-static":{"bind":"[\\"<Super>o\\",\\"XF86RotationLockToggle\\"]","schema_id":"org.gnome.settings-daemon.plugins.media-keys"}}'
 restore-workspaces-only-on-primary='true'
+show-window-position-bar=false
 use-default-background=false
 vertical-margin=5
 vertical-margin-bottom=5
 window-gap=10
-winprops=@as []
+winprops=['{"wm_class":"/.*terminal.*/i","preferredWidth":"33%"}', '{"wm_class":"Code","preferredWidth":"33%"}', '{"wm_class":"Obsidian","preferredWidth":"33%"}', '{"wm_class":"Todoist","preferredWidth":"33%"}', '{"wm_class":"/.*firefox.*/i","preferredWidth":"33%"}', '{"wm_class":"/.*chrome.*/i","preferredWidth":"33%"}']
+
+[extensions/paperwm/keybindings]
+close-window=['<Super>Delete']
 
 [extensions/paperwm/workspaces]
 list=['e3e9cdba-7ebc-4895-bb83-50543c1905e2', '2f0dfe49-3517-4f1f-90d6-b712f8656e5f', 'b2327ed9-cac1-46f3-ac57-8c33676e9af0']
@@ -79,7 +85,7 @@ index=1
 [extensions/switcher]
 font-size=uint32 22
 icon-size=uint32 25
-launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":3,"gnome-control-center.desktop":1}'
+launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":3,"discord.desktop":1,"google-chrome.desktop":4,"gnome-control-center.desktop":2,"org.gnome.Nautilus.desktop":1}'
 max-width-percentage=uint32 50
 
 [keybindings]
