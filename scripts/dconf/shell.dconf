@@ -37,6 +37,16 @@ winprops=['{"wm_class":"/.*terminal.*/i","preferredWidth":"33%"}', '{"wm_class":
 
 [extensions/paperwm/keybindings]
 close-window=['<Super>Delete']
+cycle-height=['<Alt><Super>r']
+cycle-width-backwards=['<Shift><Super>r']
+move-down=['<Shift><Super>Down']
+move-left=['<Shift><Super>comma', '<Shift><Super>Left']
+move-right=['<Shift><Super>period', '<Shift><Super>Right']
+move-up=['<Shift><Super>Up']
+switch-monitor-above=['<Control><Super>Up']
+switch-monitor-below=['<Control><Super>Down']
+switch-monitor-left=['<Control><Super>Left']
+switch-monitor-right=['<Control><Super>Right']
 
 [extensions/paperwm/workspaces]
 list=['e3e9cdba-7ebc-4895-bb83-50543c1905e2', '2f0dfe49-3517-4f1f-90d6-b712f8656e5f', 'b2327ed9-cac1-46f3-ac57-8c33676e9af0']
@@ -86,7 +96,7 @@ index=1
 [extensions/switcher]
 font-size=uint32 22
 icon-size=uint32 25
-launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":4,"discord.desktop":1,"google-chrome.desktop":4,"gnome-control-center.desktop":2,"org.gnome.Nautilus.desktop":1}'
+launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":1,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":6,"discord.desktop":1,"google-chrome.desktop":4,"gnome-control-center.desktop":2,"org.gnome.Nautilus.desktop":1}'
 max-width-percentage=uint32 50
 
 [keybindings]
