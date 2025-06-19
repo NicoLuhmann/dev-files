@@ -10,7 +10,7 @@ return {
                 additional_vim_regex_highlighting = false,
             },
             indent = {
-                enable = false,
+                enable = not vim.g.vscode, -- Disable indenting in VSCode
             },
             ensure_installed = {
                 "bash",
