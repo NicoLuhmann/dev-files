@@ -23,8 +23,12 @@ if not vim.g.vscode then
   require("mini.notify").setup({})
   require("mini.cursorword").setup({})
   require("mini.completion").setup({})
-  require("mini.pick").setup({})
-  require("mini.files").setup({
-    keymap.set("n", "<leader>e", ":lua MiniFiles.open()<CR>", { silent = true }),
-  })
+  -- require("mini.pick").setup({
+  --   keymap.set("n", "<leader>p", ":Pick files<CR>" ),
+  --   keymap.set("n", "<leader>ff", ":Pick grep_live<CR>" ),
+  --   keymap.set("n", "<leader>b", ":Pick buffers<CR>" ),
+  -- })
+  -- require("mini.files").setup({
+  --   keymap.set("n", "<leader>e", ":lua MiniFiles.open()<CR>", { silent = true }),
+  -- })
 end
