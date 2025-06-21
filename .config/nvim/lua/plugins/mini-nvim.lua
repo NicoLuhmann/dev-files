@@ -17,7 +17,6 @@ return {
         require("mini.splitjoin").setup({})
 
         if not vim.g.vscode then
-            require("mini.indentscope").setup({})
             require("mini.icons").setup({})
             require("mini.pairs").setup({})
             require("mini.git").setup({})

@@ -10,6 +10,10 @@ return {
           enabled = true,
           indentscope_color ="",
         },
+        snacks = {
+          enabled = true,
+          indentscope_color = "",
+        },
       }
     }
   end,
