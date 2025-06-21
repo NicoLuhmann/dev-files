@@ -1,9 +1,9 @@
-local keymap = vim.keymap
 
 -- Check if running in VSCode's Neovim extension
 if vim.g.vscode then
     local vscode = require("vscode")
 else
+
     vim.cmd.colorscheme "catppuccin"
     vim.opt.nu = true
     vim.opt.relativenumber = true

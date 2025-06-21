@@ -4,5 +4,5 @@ vim.g.loaded_ruby_provider = 0
 vim.g.loaded_node_provider = 0
 vim.g.loaded_perl_provider = 0
 require("config.lazy")
-require("config.mini")
 require("config.setup")
+require("config.mappings")
