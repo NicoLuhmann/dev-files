@@ -6,3 +6,4 @@ vim.g.loaded_perl_provider = 0
 require("config.lazy")
 require("config.setup")
 require("config.mappings")
+require("config.undo-history")
