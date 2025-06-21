@@ -6,7 +6,7 @@ return {
         local treesitter = require("nvim-treesitter.configs")
         treesitter.setup({
             highlight = {
-                enable = true,
+                enable = not vim.g.vscode, -- Disable highlighting in VSCode
                 additional_vim_regex_highlighting = false,
             },
             indent = {
