@@ -41,9 +41,6 @@ return {
             require("mini.notify").setup({})
             require("mini.cursorword").setup({})
             require("mini.completion").setup({})
-            require("mini.files").setup({
-                keymap.set("n", "<leader>e", ":lua MiniFiles.open()<CR>", { silent = true }),
-            })
         end
     end,
 }
