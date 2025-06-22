@@ -5,8 +5,7 @@ return {
 	cond = not vim.g.vscode,
 	keys = {
 		{
-			"M-t",
-			mode = { "n", "i" },
+			"<leader>ct", -- Leader key for Copilot actions
 			function()
 				require("copilot.suggestion").toggle_auto_trigger()
 			end,
