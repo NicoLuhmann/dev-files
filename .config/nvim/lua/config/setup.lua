@@ -3,6 +3,12 @@
 if vim.g.vscode then
     local vscode = require("vscode")
 else
+  vim.o.termguicolors = true
+  -- TODO find a way to get background based on terminal background in tmux
+  local in_tmux = os.getenv("TMUX") ~= nil
+  if in_tmux then
+    vim.o.background = "light"
+  end
   vim.cmd.colorscheme "catppuccin"
   vim.opt.nu = true
   vim.opt.relativenumber = true
