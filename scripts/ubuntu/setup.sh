@@ -22,6 +22,7 @@ else
 fi
 
 source "$SCRIPT_DIR/docker.sh"
+source "$SCRIPT_DIR/nvm.sh"
 source "$SCRIPT_DIR/neovim.sh"
 source "$SCRIPT_DIR/vscode.sh"
 source "$SCRIPT_DIR/obsidian.sh"
