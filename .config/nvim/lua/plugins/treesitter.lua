@@ -1,8 +1,5 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
-	dependencies = {
-		"nvim-treesitter/nvim-treesitter-textobjects", -- Additional text objects for treesitter
-	},
 	version = false,
 	build = ":TSUpdate",
 	opts = {
@@ -25,37 +22,11 @@ return {
 			"markdown",
 			"markdown_inline",
 			"python",
+      "regex",
 			"toml",
 			"typescript",
 			"yaml",
 		},
 		auto_install = false,
-		textobjects = {
-			move = {
-				enable = true,
-				set_jumps = true, -- whether to set jumps in the jumplist
-				goto_next_start = {
-					["]f"] = "@function.outer",
-					["]c"] = "@class.outer",
-					["]a"] = "@parameter.inner",
-				},
-				goto_next_end = {
-					["]F"] = "@function.outer",
-					["]C"] = "@class.outer",
-					["]A"] = "@parameter.inner",
-				},
-				goto_previous_start = {
-					["[f"] = "@function.outer",
-					["[c"] = "@class.outer",
-					["[a"] = "@parameter.inner",
-				},
-				goto_previous_end = {
-					["[F"] = "@function.outer",
-					["[C"] = "@class.outer",
-					["[A"] = "@parameter.inner",
-				},
-			},
-		},
 	},
 }
-
