@@ -1,7 +1,6 @@
 return {
 	"stevearc/conform.nvim",
 	event = { "BufReadPre", "BufNewFile" },
-	cond = not vim.g.vscode,
 	dependencies = {
 		"WhoIsSethDaniel/mason-tool-installer.nvim",
 	},

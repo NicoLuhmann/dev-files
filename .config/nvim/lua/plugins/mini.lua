@@ -2,7 +2,6 @@ return {
 	"echasnovski/mini.nvim",
 	version = false,
 	config = function()
-		local keymap = vim.keymap
 		require("mini.surround").setup({
 			custom_surroundings = {
 				["("] = { output = { left = "( ", right = " )" } },
