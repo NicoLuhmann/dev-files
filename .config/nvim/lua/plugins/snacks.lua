@@ -84,7 +84,7 @@ return {
 			desc = "Open a new terminal window",
 		},
 		{
-			"<leader>sd",
+			"<leader>d",
 			function()
 				Snacks.picker.diagnostics()
 			end,

@@ -20,7 +20,7 @@ return {
 	},
 	keys = {
 		{
-			"<leader>cn",
+			"<leader>fm",
 			function()
 				require("conform").format({
 					lsp_fallback = true,
