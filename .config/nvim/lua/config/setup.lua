@@ -1,4 +1,10 @@
-
+vim.api.nvim_create_autocmd("TextYankPost", {
+  group = vim.api.nvim_create_augroup("YankHighlight", { clear = true }),
+  callback = function()
+    vim.highlight.on_yank({ timeout = 1000 })
+  end,
+  desc = "Highlight on yank",
+})
 -- Check if running in VSCode's Neovim extension
 if vim.g.vscode then
     local vscode = require("vscode")
