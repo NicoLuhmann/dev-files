@@ -2,7 +2,7 @@ return {
 	"zbirenbaum/copilot.lua",
   enabled = "nluh" == vim.fn.getenv("USER"),
 	cmd = "Copilot",
-	event = "InsertEnter", -- Load when entering insert mode
+	-- event = "InsertEnter", -- Load when entering insert mode
 	cond = not vim.g.vscode,
 	opts = {
 		panel = {
@@ -10,8 +10,7 @@ return {
 		},
 		suggestion = {
 			enabled = true, -- Crucial: Enable inline ghost text suggestions
-			auto_trigger = true, -- Copilot suggests as you type
-			debounce = 100, -- Delay before suggestions appear
+			auto_trigger = false, -- Copilot suggests as you type
 			keymap = {
 				accept = "<M-y>",
 				-- Or granular acceptance:
@@ -29,14 +28,5 @@ return {
 		},
 		-- Ensure no copilot-cmp specific options are here.
 		-- If you previously used copilot-cmp, make sure it's not loaded/enabled.
-	},
-	keys = {
-		{
-			"<leader>ct", -- Leader key for Copilot actions
-			function()
-				require("copilot.suggestion").toggle_auto_trigger()
-			end,
-			desc = "Toggle copilot auto trigger",
-		},
 	},
 }

@@ -15,6 +15,7 @@ return {
 			"c",
 			"cmake",
 			"cpp",
+      "diff",
 			"dockerfile",
 			"javascript",
 			"json",
