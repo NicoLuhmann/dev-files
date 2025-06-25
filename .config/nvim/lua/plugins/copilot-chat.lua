@@ -8,6 +8,10 @@ return {
 	},
 	build = "make tiktoken", -- Only on MacOS or Linux
 	opts = {
+		window = {
+			layout = "horizontal",
+      height = 0.33,
+		},
 		-- See Configuration section for options
 	},
 	-- See Commands section for default commands if you want to lazy load on them,
