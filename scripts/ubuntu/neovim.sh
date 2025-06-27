@@ -15,6 +15,11 @@ tar xf lazygit.tar.gz lazygit
 sudo install lazygit -D -t /usr/local/bin/
 rm lazygit.tar.gz lazygit
 
+# Install nvm and npm
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+nvm install stable
+nvm use stable
+
 # Install Neovim
 NVIM_VERSION="0.11.2"
 arch=$(uname -m)
