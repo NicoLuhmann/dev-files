@@ -1,5 +1,6 @@
 return {
   "neovim/nvim-lspconfig",
+	enable = NVIM_MODE ~= "min",
   cond = not vim.g.vscode,
   dependencies = {
     "folke/lazydev.nvim",

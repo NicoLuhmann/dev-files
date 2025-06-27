@@ -1,8 +1,8 @@
 return {
 	"zbirenbaum/copilot.lua",
-  enabled = "nluh" == vim.fn.getenv("USER"),
+	enable = NVIM_MODE == "max",
 	cmd = "Copilot",
-	-- event = "InsertEnter", -- Load when entering insert mode
+	event = "InsertEnter", -- Load when entering insert mode
 	cond = not vim.g.vscode,
 	opts = {
 		panel = {
