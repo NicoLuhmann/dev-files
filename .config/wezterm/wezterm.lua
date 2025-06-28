@@ -2,7 +2,7 @@
 -- ===================================================
 -- Leader Key:
 -- The leader key is set back to default tmux, with a timeout of 2000 milliseconds (2 seconds).
--- To execute any keybinding, press the leader key (ALT + q) first, then the corresponding key.
+-- To execute any keybinding, press the leader key (ctrl + a) first, then the corresponding key.
 
 -- Keybindings:
 -- 1. Tab Management:
@@ -60,9 +60,8 @@ config.font_size = 12
 
 -- Scrolling
 config.scrollback_lines = 10000
-config.enable_scroll_bar = true
 
--- config.window_decorations = "RESIZE"
+config.window_decorations = "RESIZE"
 
 -- tmux
 config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 2000 }
@@ -149,10 +148,21 @@ for i = 0, 9 do
 end
 
 -- tab bar
-config.hide_tab_bar_if_only_one_tab = false
+config.hide_tab_bar_if_only_one_tab = true
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
+
+-- remove window padding
+config.window_padding = {
+  left = 0,
+  right = 0,
+  top = 0,
+  bottom = 0,
+}
+
+-- set max fps
+config.max_fps = 144
 
 -- tmux status
 wezterm.on("update-right-status", function(window, _)
