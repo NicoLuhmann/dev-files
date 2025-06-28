@@ -22,7 +22,7 @@ else
 fi
 
 source "$SCRIPT_DIR/docker.sh"
-source "$SCRIPT_DIR/nvm.sh"
+source "$SCRIPT_DIR/kitty.sh"
 source "$SCRIPT_DIR/neovim.sh"
 source "$SCRIPT_DIR/vscode.sh"
 source "$SCRIPT_DIR/obsidian.sh"
@@ -30,7 +30,6 @@ source "$SCRIPT_DIR/nerdFonts.sh"
 source "$SCRIPT_DIR/starship.sh"
 source "$SCRIPT_DIR/todoist.sh"
 source "$SCRIPT_DIR/gnomeSetup.sh"
-source "$SCRIPT_DIR/lazygit.sh"
 source "$SCRIPT_DIR/chrome.sh"
 source "$SCRIPT_DIR/discord.sh"
 
