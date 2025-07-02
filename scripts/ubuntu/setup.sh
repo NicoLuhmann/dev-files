@@ -22,11 +22,12 @@ else
 fi
 
 source "$SCRIPT_DIR/docker.sh"
-source "$SCRIPT_DIR/wezterm.sh"
+source "$SCRIPT_DIR/ghostty.sh"
+# source "$SCRIPT_DIR/wezterm.sh"
 source "$SCRIPT_DIR/neovim.sh"
 source "$SCRIPT_DIR/vscode.sh"
-source "$SCRIPT_DIR/obsidian.sh"
-source "$SCRIPT_DIR/nerdFonts.sh"
+# source "$SCRIPT_DIR/obsidian.sh"
+# source "$SCRIPT_DIR/nerdFonts.sh"
 source "$SCRIPT_DIR/starship.sh"
 source "$SCRIPT_DIR/todoist.sh"
 source "$SCRIPT_DIR/gnomeSetup.sh"
