@@ -3,7 +3,7 @@ set -e
 
 # Install dependencies
 sudo apt update
-sudo apt install -y curl git xclip wget ripgrep build-essential luarocks gzip tar unzip python3-pip python3-venv imagemagick
+sudo apt install -y curl git xclip wget ripgrep build-essential luarocks gzip tar unzip python3-pip python3-venv imagemagick cargo
 
 # Install tiktoken_core for Lua 5.1
 sudo luarocks install --lua-version 5.1 tiktoken_core
