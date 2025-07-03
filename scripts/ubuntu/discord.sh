@@ -1,9 +1,7 @@
 #!/bin/bash
 
-install_packages pavucontrol
-if [[ "$UBUNTU_VERSION" == "24.04" ]]; then
-    install_packages qpwgraph
-fi
+sudo apt update
+sudo apt install -y wget
 
 wget "https://discord.com/api/download?platform=linux&format=deb" -O discord.deb
 if [ $? -ne 0 ]; then

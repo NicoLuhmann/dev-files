@@ -1,6 +1,7 @@
 #!/bin/bash
 
-install_packages pipx gnome-shell-extensions gnome-shell-extension-manager
+sudo apt update
+sudo apt install -y pipx gnome-shell-extensions gnome-shell-extension-manager
 
 # Use 8 fixed workspaces instead of dynamic mode
 gsettings set org.gnome.mutter dynamic-workspaces false
@@ -31,4 +32,3 @@ done
 
 # Now load settings from dconf file
 dconf load /org/gnome/shell/ < "$SCRIPT_DIR/../dconf/shell.dconf"
-dconf load /org/gnome/terminal/legacy/ < "$SCRIPT_DIR/../dconf/terminal.dconf"
