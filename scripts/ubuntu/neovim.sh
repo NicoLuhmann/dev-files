@@ -65,12 +65,5 @@ fi
 
 echo ""
 echo "--------------------------------------------------------"
-echo "Setup complete! Please run 'source ~/.bashrc' or open a new terminal"
-echo "for changes to environment variables (like NVIM_MODE_LUH and PATH)"
-echo "to take effect."
-echo "Furthermore run if needed:"
-echo "nvm install stable"
-echo "nvm use stable"
-echo "npm install -g @mermaid-js/mermaid-cli"
-echo "npm install -g tree-sitter-cli"
+echo "Setup complete! Follow instructions in /dev-files/scripts/ubuntu/README.md"
 echo "--------------------------------------------------------"
