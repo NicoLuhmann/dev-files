@@ -2,3 +2,4 @@ clipboard-read = "allow"
 clipboard-write = "allow"
 
 theme = dark:catppuccin-frappe,light:catppuccin-latte
+command = "bash -i"
