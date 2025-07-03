@@ -3,7 +3,7 @@ command-history=['lg']
 disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com']
 enabled-extensions=['paperwm@paperwm.github.com', 'switcher@landau.fi', 'caffeine@patapon.info']
-favorite-apps=['org.wezfurlong.wezterm.desktop', 'code.desktop', 'firefox_firefox.desktop', 'obsidian_obsidian.desktop', 'todoist_todoist.desktop']
+favorite-apps=['com.mitchellh.ghostty.desktop', 'firefox_firefox.desktop', 'todoist_todoist.desktop']
 had-bluetooth-devices-setup=false
 welcome-dialog-last-shown-version='42.9'
 
@@ -35,7 +35,7 @@ use-default-background=false
 vertical-margin=0
 vertical-margin-bottom=0
 window-gap=5
-winprops=['{"wm_class":"/.*chrome.*/i","preferredWidth":"33%"}', '{"wm_class":"/.*firefox.*/i","preferredWidth":"33%"}', '{"wm_class":"/.*terminal.*/i","preferredWidth":"33%"}', '{"wm_class":"Code","preferredWidth":"33%"}', '{"wm_class":"Obsidian","preferredWidth":"33%"}', '{"wm_class":"org.wezfurlong.wezterm","preferredWidth":"33%"}', '{"wm_class":"Todoist","preferredWidth":"33%"}']
+winprops=['{"wm_class":"/.*firefox.*/i","preferredWidth":"33%"}', '{"wm_class":"com.mitchellh.ghostty","preferredWidth":"33%"}', '{"wm_class":"Todoist","preferredWidth":"33%"}']
 
 [extensions/paperwm/keybindings]
 close-window=['<Super>Delete']
@@ -98,7 +98,7 @@ index=1
 [extensions/switcher]
 font-size=uint32 22
 icon-size=uint32 25
-launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":2,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":7,"discord.desktop":12,"google-chrome.desktop":5,"gnome-control-center.desktop":2,"org.gnome.Nautilus.desktop":2,"firefox_firefox.desktop":2}'
+launcher-stats='{"org.gnome.Extensions.desktop":2,"obsidian_obsidian.desktop":1,"todoist_todoist.desktop":2,"org.gnome.Terminal.desktop":2,"ca.desrt.dconf-editor.desktop":1,"gnome-session-properties.desktop":1,"com.mattjakeman.ExtensionManager.desktop":9,"discord.desktop":13,"google-chrome.desktop":6,"gnome-control-center.desktop":3,"org.gnome.Nautilus.desktop":2,"firefox_firefox.desktop":3,"kitty.desktop":2,"ghostty_ghostty.desktop":2}'
 max-width-percentage=uint32 50
 
 [keybindings]
