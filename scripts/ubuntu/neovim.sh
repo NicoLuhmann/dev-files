@@ -8,6 +8,10 @@ sudo apt install -y curl git xclip wget ripgrep build-essential luarocks gzip ta
 # Install tiktoken_core for Lua 5.1
 sudo luarocks install --lua-version 5.1 tiktoken_core
 
+# Install Tectonic
+curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net |sh
+sudo mv tectonic /usr/local/bin/
+
 # Install nvm and npm
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
@@ -67,4 +71,6 @@ echo "to take effect."
 echo "Furthermore run if needed:"
 echo "nvm install stable"
 echo "nvm use stable"
+echo "npm install -g @mermaid-js/mermaid-cli"
+echo "npm install -g tree-sitter-cli"
 echo "--------------------------------------------------------"
