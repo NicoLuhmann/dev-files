@@ -23,6 +23,7 @@ sudo apt install -y \
   zathura-pdf-poppler \
   zathura-ps \
   zathura-djvu \
+  xdotool \
   texlive-full
 
 # Install tiktoken_core for Lua 5.1
