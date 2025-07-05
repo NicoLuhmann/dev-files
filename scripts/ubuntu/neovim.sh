@@ -3,14 +3,30 @@ set -e
 
 # Install dependencies
 sudo apt update
-sudo apt install -y curl git xclip wl-clipboard wget ripgrep build-essential luarocks gzip tar unzip python3-pip python3-venv imagemagick cargo
+sudo apt install -y \
+  curl \
+  git \
+  xclip \
+  wl-clipboard \
+  wget \
+  ripgrep \
+  build-essential \
+  luarocks \
+  gzip \
+  tar \
+  unzip \
+  python3-pip \
+  python3-venv \
+  imagemagick \
+  cargo \
+  zathura \
+  zathura-pdf-poppler \
+  zathura-ps \
+  zathura-djvu \
+  texlive-full
 
 # Install tiktoken_core for Lua 5.1
 sudo luarocks install --lua-version 5.1 tiktoken_core
-
-# Install Tectonic
-curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net |sh
-sudo mv tectonic /usr/local/bin/
 
 # Install nvm and npm
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
