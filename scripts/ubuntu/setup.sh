@@ -14,6 +14,7 @@ source "$SCRIPT_DIR/starship.sh"
 source "$SCRIPT_DIR/todoist.sh"
 source "$SCRIPT_DIR/gnomeSetup.sh"
 source "$SCRIPT_DIR/discord.sh"
+source "$SCRIPT_DIR/onlyoffice.sh"
 source "$SCRIPT_DIR/neovim.sh"
 
 # initial stow
