@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Update package lists to ensure latest versions
-sudo apt update
+sudo apt-get update
 
 # Install curl if not already installed
-sudo apt install -y curl
+sudo apt-get install -y curl
 
 # Download and run the Ghostty installer script for Ubuntu (installs via .deb)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mkasberg/ghostty-ubuntu/HEAD/install.sh)"

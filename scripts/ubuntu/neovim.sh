@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install dependencies
-sudo apt update
-sudo apt install -y \
+sudo apt-get update
+sudo apt-get install -y \
   curl \
   git \
   xclip \

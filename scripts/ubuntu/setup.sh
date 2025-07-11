@@ -4,9 +4,9 @@
 SCRIPT_DIR="${SCRIPT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 
 # install common packages
-sudo apt update
-sudo apt upgrade -y
-sudo apt install -y curl git tar stow timeshift tmux wget htop libfuse2t64
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y curl git tar stow timeshift tmux wget htop libfuse2t64
 
 source "$SCRIPT_DIR/browser.sh"
 source "$SCRIPT_DIR/code.sh"

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo apt update
-sudo apt install -y pipx gnome-shell-extensions gnome-shell-extension-manager
+sudo apt-get update
+sudo apt-get install -y pipx gnome-shell-extensions gnome-shell-extension-manager
 
 # Use 8 fixed workspaces instead of dynamic mode
 gsettings set org.gnome.mutter dynamic-workspaces false
