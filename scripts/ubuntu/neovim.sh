@@ -14,16 +14,7 @@ sudo apt-get install -y \
   tar \
   unzip \
   python3-pip \
-  python3-venv \
-  imagemagick \
-  cargo \
-  zathura \
-  zathura-pdf-poppler \
-  zathura-ps \
-  zathura-djvu
-
-# Install nvm and npm
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+  python3-venv 
 
 # Install Neovim and lazygit
 NVIM_VERSION="0.11.2"
