@@ -22,9 +22,6 @@ sudo apt-get install -y \
   zathura-ps \
   zathura-djvu
 
-# Install tiktoken_core for Lua 5.1
-sudo luarocks install --lua-version 5.1 tiktoken_core
-
 # Install nvm and npm
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
@@ -41,13 +38,6 @@ declare -A lazygit_archives=(
   ["x86_64"]="Linux_x86_64"
   ["aarch64"]="Linux_arm64"
 )
-
-if [[ "$arch" == "x86_64" ]]; then
-  if ! grep -Fxq 'export NVIM_MODE_LUH="ws"' "$HOME/.bashrc"; then
-    echo 'export NVIM_MODE_LUH="ws"' >> "$HOME/.bashrc"
-    echo "Added NVIM_MODE_LUH=ws to ~/.bashrc"
-  fi
-fi
 
 if [[ -n "${nvim_archives[$arch]}" && -n "${lazygit_archives[$arch]}" ]]; then
   # Install latest lazygit
