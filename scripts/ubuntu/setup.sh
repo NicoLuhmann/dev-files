@@ -9,6 +9,7 @@ sudo apt upgrade -y
 sudo apt install -y curl git tar stow timeshift tmux wget htop libfuse2t64
 
 source "$SCRIPT_DIR/browser.sh"
+source "$SCRIPT_DIR/code.sh"
 source "$SCRIPT_DIR/docker.sh"
 source "$SCRIPT_DIR/ghostty.sh"
 source "$SCRIPT_DIR/starship.sh"
