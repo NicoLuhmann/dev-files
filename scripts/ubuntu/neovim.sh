@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-
 # Install dependencies
 sudo apt update
 sudo apt install -y \

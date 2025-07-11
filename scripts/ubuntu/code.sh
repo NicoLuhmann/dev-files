@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-
 echo "Starting Visual Studio Code installation..."
 echo "Installing wget, gnupg, and apt-transport-https..."
 sudo apt-get update
