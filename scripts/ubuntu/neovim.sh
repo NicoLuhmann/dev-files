@@ -17,7 +17,7 @@ sudo apt-get install -y \
   python3-venv 
 
 # Install Neovim and lazygit
-NVIM_VERSION="0.11.2"
+NVIM_VERSION="0.11.3"
 arch=$(uname -m)
 
 declare -A nvim_archives=(
