@@ -19,6 +19,7 @@ source "$SCRIPT_DIR/discord.sh"
 source "$SCRIPT_DIR/onlyoffice.sh"
 source "$SCRIPT_DIR/zathura.sh"
 source "$SCRIPT_DIR/disableEmojiPicker.sh"
+source "$SCRIPT_DIR/lazygit.sh"
 source "$SCRIPT_DIR/neovim.sh"
 
 "$SCRIPT_DIR/addToBashrc.sh" 'export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"'
