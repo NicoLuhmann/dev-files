@@ -12,7 +12,7 @@ sudo apt-get install -y \
   tar
 
 # Install Neovim
-NVIM_VERSION="0.11.3"
+NVIM_VERSION="0.11.4"
 arch=$(uname -m)
 
 declare -A nvim_archives=(
