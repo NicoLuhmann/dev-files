@@ -48,6 +48,7 @@ ask_and_source() {
 }
 
 ask_and_source "$SCRIPT_DIR/browser.sh"
+ask_and_source "$SCRIPT_DIR/audioControl.sh"
 ask_and_source "$SCRIPT_DIR/code.sh"
 ask_and_source "$SCRIPT_DIR/jetBrainsMonoNerdFont.sh"
 ask_and_source "$SCRIPT_DIR/docker.sh"
