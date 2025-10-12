@@ -9,16 +9,20 @@ welcome-dialog-last-shown-version='42.9'
 
 [extensions/caffeine]
 countdown-timer=0
-indicator-position-max=3
+indicator-position-max=1
 nightlight-control='never'
 user-enabled=false
 
 [extensions/dash-to-dock]
+background-opacity=0.80000000000000004
 dash-max-icon-size=48
 dock-fixed=false
 dock-position='BOTTOM'
 extend-height=false
+height-fraction=0.90000000000000002
 multi-monitor=true
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
 show-mounts=true
 show-trash=true
 
@@ -40,7 +44,7 @@ open-window-position=0
 open-window-position-option-right=true
 restore-attach-modal-dialogs='true'
 restore-edge-tiling='true'
-restore-keybinds='{"toggle-tiled-left":{"bind":"[\\"<Super>Left\\"]","schema_id":"org.gnome.mutter.keybindings"},"toggle-tiled-right":{"bind":"[\\"<Super>Right\\"]","schema_id":"org.gnome.mutter.keybindings"},"cancel-input-capture":{"bind":"[\\"<Super><Shift>Escape\\"]","schema_id":"org.gnome.mutter.keybindings"},"restore-shortcuts":{"bind":"[\\"<Super>Escape\\"]","schema_id":"org.gnome.mutter.wayland.keybindings"},"switch-to-workspace-last":{"bind":"[\\"<Super>End\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-panels":{"bind":"[\\"<Control><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-group-backward":{"bind":"[\\"<Shift><Super>Above_Tab\\",\\"<Shift><Alt>Above_Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"unmaximize":{"bind":"[\\"<Super>Down\\",\\"<Alt>F5\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-1":{"bind":"[\\"<Super>Home\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-left":{"bind":"[\\"<Super><Shift>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-down":{"bind":"[\\"<Super><Shift>Down\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-left":{"bind":"[\\"<Super>Page_Up\\",\\"<Super><Alt>Left\\",\\"<Control><Alt>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-group":{"bind":"[\\"<Super>Above_Tab\\",\\"<Alt>Above_Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-left":{"bind":"[\\"<Super><Shift>Page_Up\\",\\"<Super><Shift><Alt>Left\\",\\"<Control><Shift><Alt>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-right":{"bind":"[\\"<Super><Shift>Page_Down\\",\\"<Super><Shift><Alt>Right\\",\\"<Control><Shift><Alt>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-panels-backward":{"bind":"[\\"<Shift><Control><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-up":{"bind":"[\\"<Control><Shift><Alt>Up\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-right":{"bind":"[\\"<Super>Page_Down\\",\\"<Super><Alt>Right\\",\\"<Control><Alt>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-down":{"bind":"[\\"<Control><Shift><Alt>Down\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-applications":{"bind":"[\\"<Super>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-windows":{"bind":"[\\"<Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"maximize":{"bind":"[\\"<Super>Up\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-right":{"bind":"[\\"<Super><Shift>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-applications-backward":{"bind":"[\\"<Shift><Super>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-windows-backward":{"bind":"[\\"<Shift><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-up":{"bind":"[\\"<Super><Shift>Up\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"shift-overview-up":{"bind":"[\\"<Super><Alt>Up\\"]","schema_id":"org.gnome.shell.keybindings"},"shift-overview-down":{"bind":"[\\"<Super><Alt>Down\\"]","schema_id":"org.gnome.shell.keybindings"},"focus-active-notification":{"bind":"[\\"<Super>n\\"]","schema_id":"org.gnome.shell.keybindings"},"rotate-video-lock-static":{"bind":"[\\"<Super>o\\",\\"XF86RotationLockToggle\\"]","schema_id":"org.gnome.settings-daemon.plugins.media-keys"},"tile-left-half":{"bind":"[\\"<Super>Left\\",\\"<Super>KP_4\\"]","schema_id":"org.gnome.shell.extensions.tiling-assistant"},"tile-right-half":{"bind":"[\\"<Super>Right\\",\\"<Super>KP_6\\"]","schema_id":"org.gnome.shell.extensions.tiling-assistant"},"restore-window":{"bind":"[\\"<Super>Down\\"]","schema_id":"org.gnome.shell.extensions.tiling-assistant"},"tile-maximize":{"bind":"[\\"<Super>Up\\",\\"<Super>KP_5\\"]","schema_id":"org.gnome.shell.extensions.tiling-assistant"},"toggle-message-tray":{"bind":"[\\"<Super>v\\",\\"<Super>m\\"]","schema_id":"org.gnome.shell.keybindings"},"minimize":{"bind":"[\\"<Super>h\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"screensaver":{"bind":"[\\"<Super>l\\"]","schema_id":"org.gnome.settings-daemon.plugins.media-keys"},"switch-monitor":{"bind":"[\\"<Super>p\\",\\"XF86Display\\"]","schema_id":"org.gnome.mutter.keybindings"}}'
+restore-keybinds='{"cancel-input-capture":{"bind":"[\\"<Super><Shift>Escape\\"]","schema_id":"org.gnome.mutter.keybindings"},"switch-monitor":{"bind":"[\\"<Super>p\\",\\"XF86Display\\"]","schema_id":"org.gnome.mutter.keybindings"},"restore-shortcuts":{"bind":"[\\"<Super>Escape\\"]","schema_id":"org.gnome.mutter.wayland.keybindings"},"switch-panels":{"bind":"[\\"<Control><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"minimize":{"bind":"[\\"<Super>h\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-group-backward":{"bind":"[\\"<Shift><Super>Above_Tab\\",\\"<Shift><Alt>Above_Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-left":{"bind":"[\\"<Super>Page_Up\\",\\"<Super><Alt>Left\\",\\"<Control><Alt>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-group":{"bind":"[\\"<Super>Above_Tab\\",\\"<Alt>Above_Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-panels-backward":{"bind":"[\\"<Shift><Control><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-right":{"bind":"[\\"<Super>Page_Down\\",\\"<Super><Alt>Right\\",\\"<Control><Alt>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-applications":{"bind":"[\\"<Super>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-windows":{"bind":"[\\"<Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-applications-backward":{"bind":"[\\"<Shift><Super>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-windows-backward":{"bind":"[\\"<Shift><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"focus-active-notification":{"bind":"[\\"<Super>n\\"]","schema_id":"org.gnome.shell.keybindings"},"screensaver":{"bind":"[\\"<Super>l\\"]","schema_id":"org.gnome.settings-daemon.plugins.media-keys"},"rotate-video-lock-static":{"bind":"[\\"<Super>o\\",\\"XF86RotationLockToggle\\"]","schema_id":"org.gnome.settings-daemon.plugins.media-keys"}}'
 restore-workspaces-only-on-primary='true'
 selection-border-radius-bottom=5
 selection-border-radius-top=5
@@ -78,7 +82,7 @@ move-space-monitor-left=['<Shift><Control><Super>h']
 move-space-monitor-right=['<Shift><Control><Super>l']
 move-up=['<Control><Super>k']
 new-window=['<Super>n']
-paper-toggle-fullscreen=['<Super>Return']
+paper-toggle-fullscreen=['<Shift><Super>Return']
 resize-h-dec=['<Shift><Super>underscore']
 resize-w-inc=['<Super>equal']
 slurp-in=['<Super>i']
@@ -101,7 +105,7 @@ switch-previous=['']
 switch-right=['<Super>l']
 switch-up=['<Super>k']
 take-window=['']
-toggle-maximize-width=['<Super>slash']
+toggle-maximize-width=['<Super>Return']
 
 [extensions/paperwm/workspaces]
 list=['e3e9cdba-7ebc-4895-bb83-50543c1905e2', '2f0dfe49-3517-4f1f-90d6-b712f8656e5f', 'b2327ed9-cac1-46f3-ac57-8c33676e9af0']
@@ -153,9 +157,9 @@ index=1
 [extensions/switcher]
 font-size=uint32 22
 icon-size=uint32 25
-launcher-stats='{"firefox_firefox.desktop":3,"timeshift-gtk.desktop":1,"code.desktop":7,"com.mattjakeman.ExtensionManager.desktop":2,"brave-browser.desktop":6,"discord.desktop":1,"org.gnome.Settings.desktop":2,"steam.desktop":3,"org.gnome.Terminal.desktop":1}'
+launcher-stats='{"firefox_firefox.desktop":3,"timeshift-gtk.desktop":1,"code.desktop":8,"com.mattjakeman.ExtensionManager.desktop":2,"brave-browser.desktop":8,"discord.desktop":1,"org.gnome.Settings.desktop":2,"steam.desktop":3,"org.gnome.Terminal.desktop":1}'
 max-width-percentage=uint32 50
-show-switcher=['<Super>m']
+show-switcher=['<Super>slash']
 
 [extensions/tiling-assistant]
 activate-layout0=@as []
