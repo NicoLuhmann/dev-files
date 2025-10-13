@@ -10,7 +10,9 @@ sudo apt-get install -y curl
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mkasberg/ghostty-ubuntu/HEAD/install.sh)"
 
 # Register Ghostty as an alternative for the system terminal emulator
-sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/ghostty 50
+# sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/ghostty 50
 
 # Set Ghostty as the default terminal emulator
-sudo update-alternatives --set x-terminal-emulator /usr/bin/ghostty
+# sudo update-alternatives --set x-terminal-emulator /usr/bin/ghostty
+
+gsettings set org.gnome.desktop.default-applications.terminal exec 'usr/bin/ghostty'
