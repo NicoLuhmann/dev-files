@@ -61,9 +61,9 @@ ask_and_source "$SCRIPT_DIR/discord.sh"
 ask_and_source "$SCRIPT_DIR/onlyoffice.sh"
 ask_and_source "$SCRIPT_DIR/zathura.sh"
 ask_and_source "$SCRIPT_DIR/disableEmojiPicker.sh"
-# lazygit is included in neovim.sh right now
+# lazygit is included in nvim installer apt.sh
 # ask_and_source "$SCRIPT_DIR/lazygit.sh"
-ask_and_source "$SCRIPT_DIR/neovim.sh"
+ask_and_source "$SCRIPT_DIR/../../.config/nvim/installer/apt.sh"
 
 "$SCRIPT_DIR/addToBashrc.sh" 'export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"'
 
