@@ -11,30 +11,30 @@ $character"""
 
 [username]
 show_always = true
-style_user = "#888ca6"
-style_root = "#d20f39"
+style_user = "bright-black"
+style_root = "red"
 format = "[$user]($style)"
 
 [hostname]
 ssh_only = false
-style = "#888ca6"
+style = "bright-black"
 format = "[@$hostname]($style) "
 
 [directory]
-style = "#1e66f5"
+style = "bright-blue"
 
 [character]
-success_symbol = "[❯](#40a02b)"
-error_symbol = "[❯](#d20f39)"
-vimcmd_symbol = "[❮](#40a02b)"
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
+vimcmd_symbol = "[❮](green)"
 
 [git_branch]
 format = "[$branch]($style) "
-style = "#8839ef"
+style = "purple"
 
 [git_status]
 format = "[($conflicted$untracked$modified$staged$renamed$deleted$stashed$ahead_behind)]($style)"
-style = "#8839ef"
+style = "bold purple"
 conflicted = "✖"
 untracked  = "?"
 modified   = "!"
@@ -48,38 +48,38 @@ diverged = "↕"
 
 [git_state]
 format = "([$state( $progress_current/$progress_total)]($style)) "
-style = "#8839ef"
+style = "purple"
 
 [c]
 format = "[$name $version]($style) "
-style = "#179299"
+style = "cyan"
 
 [cmake]
 format = "[$symbol$version]($style) "
 symbol = "CMake "
-style = "#179299"
+style = "cyan"
 
 [lua]
 format = "[$symbol$version]($style) "
 symbol = "Lua "
-style = "#179299"
+style = "cyan"
 
 [java]
 format = "[$symbol$version]($style) "
 symbol = "Java "
-style = "#179299"
+style = "cyan"
 
 [python]
 format = "[$virtualenv]($style) "
-style = "#179299"
+style = "cyan"
 detect_extensions = []
 detect_files = []
 
 [nodejs]
 format = "[$symbol$version]($style) "
 symbol = "Node "
-style = "#179299"
+style = "cyan"
 
 [cmd_duration]
 format = "[$duration]($style)"
-style = "#df8e1d"
+style = "yellow"
