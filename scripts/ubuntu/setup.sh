@@ -47,7 +47,6 @@ ask_and_source() {
 	done
 }
 
-ask_and_source "$SCRIPT_DIR/browser.sh"
 ask_and_source "$SCRIPT_DIR/audioControl.sh"
 ask_and_source "$SCRIPT_DIR/folderStructure.sh"
 ask_and_source "$SCRIPT_DIR/code.sh"
