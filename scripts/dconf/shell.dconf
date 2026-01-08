@@ -3,15 +3,16 @@ command-history=['lg']
 disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com', 'tiling-assistant@ubuntu.com']
 enabled-extensions=['paperwm@paperwm.github.com', 'switcher@landau.fi', 'caffeine@patapon.info']
-favorite-apps=['com.mitchellh.ghostty.desktop', 'code.desktop', 'brave-browser.desktop']
+favorite-apps=['com.mitchellh.ghostty.desktop', 'code.desktop', 'firefox_firefox.desktop', 'com.cisco.secureclient.gui.desktop']
 had-bluetooth-devices-setup=false
 welcome-dialog-last-shown-version='42.9'
 
 [extensions/caffeine]
+cli-toggle=false
 countdown-timer=0
 indicator-position-max=1
 nightlight-control='never'
-user-enabled=false
+user-enabled=true
 
 [extensions/dash-to-dock]
 background-opacity=0.80000000000000004
@@ -40,7 +41,7 @@ gesture-workspace-fingers=4
 horizontal-margin=5
 last-used-display-server='Wayland'
 only-scratch-in-overview=false
-open-window-position=0
+open-window-position=1
 open-window-position-option-right=true
 restore-attach-modal-dialogs='true'
 restore-edge-tiling='true'
@@ -157,7 +158,7 @@ index=1
 [extensions/switcher]
 font-size=uint32 22
 icon-size=uint32 25
-launcher-stats='{"firefox_firefox.desktop":3,"timeshift-gtk.desktop":1,"code.desktop":8,"com.mattjakeman.ExtensionManager.desktop":2,"brave-browser.desktop":8,"discord.desktop":1,"org.gnome.Settings.desktop":2,"steam.desktop":3,"org.gnome.Terminal.desktop":1}'
+launcher-stats='{"firefox_firefox.desktop":12,"timeshift-gtk.desktop":1,"code.desktop":11,"com.mattjakeman.ExtensionManager.desktop":2,"brave-browser.desktop":38,"discord.desktop":19,"org.gnome.Settings.desktop":6,"steam.desktop":21,"org.gnome.Terminal.desktop":1,"appimagekit-pcloud.desktop":3,"org.gnome.Nautilus.desktop":8,"dev.zed.Zed-Preview.desktop":1}'
 max-width-percentage=uint32 50
 show-switcher=['<Super>slash']
 
