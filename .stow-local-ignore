@@ -24,3 +24,4 @@ _darcs
 
 # additional ignores to default
 scripts
+install.sh
