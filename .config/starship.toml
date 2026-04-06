@@ -4,7 +4,7 @@ format = """
 $username$hostname\
 $directory\
 $git_branch$git_state$git_status\
-$c$cmake$lua$java$python$nodejs\
+$c$cmake$lua$java$python$conda$nodejs\
 $cmd_duration\
 $line_break\
 $character"""
@@ -74,6 +74,11 @@ format = "[$virtualenv]($style) "
 style = "cyan"
 detect_extensions = []
 detect_files = []
+
+[conda]
+format = "[$environment]($style) "
+style = "cyan"
+ignore_base = false
 
 [nodejs]
 format = "[$symbol$version]($style) "
