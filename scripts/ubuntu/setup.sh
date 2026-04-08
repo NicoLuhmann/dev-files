@@ -6,7 +6,7 @@ SCRIPT_DIR="${SCRIPT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 # install common packages
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install -y curl git tar stow tmux wget htop libfuse2t64 ripgrep
+sudo apt-get install -y curl git tar stow tmux wget htop libfuse2t64 micro fzf ripgrep
 
 # Helper: ask yes/no before sourcing a script
 # By default (including non-interactive shells) the script will SKIP installations
@@ -52,7 +52,7 @@ ask_and_source "$SCRIPT_DIR/folderStructure.sh"
 ask_and_source "$SCRIPT_DIR/code.sh"
 ask_and_source "$SCRIPT_DIR/jetBrainsMonoNerdFont.sh"
 ask_and_source "$SCRIPT_DIR/docker.sh"
-ask_and_source "$SCRIPT_DIR/ghostty.sh"
+ask_and_source "$SCRIPT_DIR/wezterm.sh"
 ask_and_source "$SCRIPT_DIR/starship.sh"
 ask_and_source "$SCRIPT_DIR/lazygit.sh"
 ask_and_source "$SCRIPT_DIR/nvm.sh"
