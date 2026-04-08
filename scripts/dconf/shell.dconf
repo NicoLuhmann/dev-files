@@ -3,7 +3,7 @@ command-history=['lg']
 disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com', 'tiling-assistant@ubuntu.com']
 enabled-extensions=['switcher@landau.fi', 'caffeine@patapon.info', 'paperwm@paperwm.github.com']
-favorite-apps=['com.mitchellh.ghostty.desktop', 'code.desktop', 'firefox_firefox.desktop', 'com.cisco.secureclient.gui.desktop']
+favorite-apps=['org.wezfurlong.wezterm.desktop', 'code.desktop', 'firefox_firefox.desktop', 'com.cisco.secureclient.gui.desktop']
 had-bluetooth-devices-setup=false
 welcome-dialog-last-shown-version='42.9'
 
@@ -138,6 +138,8 @@ index=2
 background=''
 color='rgb(143,240,164)'
 index=1
+show-position-bar=true
+show-top-bar=true
 
 [extensions/paperwm/workspaces/3dad423f-e86a-43e1-b5ef-1b02c480e94c]
 index=0
@@ -178,7 +180,7 @@ index=1
 [extensions/switcher]
 font-size=uint32 22
 icon-size=uint32 25
-launcher-stats='{"firefox_firefox.desktop":35,"timeshift-gtk.desktop":1,"code.desktop":17,"com.mattjakeman.ExtensionManager.desktop":5,"brave-browser.desktop":38,"discord.desktop":35,"org.gnome.Settings.desktop":9,"steam.desktop":21,"org.gnome.Terminal.desktop":1,"appimagekit-pcloud.desktop":3,"org.gnome.Nautilus.desktop":14,"dev.zed.Zed-Preview.desktop":1,"dev.zed.Zed.desktop":10,"faugus-launcher.desktop":7,"pavucontrol.desktop":1,"net.lutris.Lutris.desktop":1,"battlenet.desktop":1,"localsend_localsend.desktop":1}'
+launcher-stats='{"firefox_firefox.desktop":47,"timeshift-gtk.desktop":1,"code.desktop":18,"com.mattjakeman.ExtensionManager.desktop":6,"brave-browser.desktop":38,"discord.desktop":40,"org.gnome.Settings.desktop":12,"steam.desktop":21,"org.gnome.Terminal.desktop":2,"appimagekit-pcloud.desktop":3,"org.gnome.Nautilus.desktop":15,"dev.zed.Zed-Preview.desktop":1,"dev.zed.Zed.desktop":10,"faugus-launcher.desktop":7,"pavucontrol.desktop":1,"net.lutris.Lutris.desktop":1,"battlenet.desktop":1,"localsend_localsend.desktop":1,"enteauth.desktop":1}'
 max-width-percentage=uint32 50
 show-switcher=['<Super>slash']
 
