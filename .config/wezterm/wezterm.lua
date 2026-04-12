@@ -54,38 +54,42 @@ for i = 0, 9 do
   table.insert(config.keys, leader(tostring(i), act.ActivateTab(i)))
 end
 
--- Copy mode (vi / tmux style)
+-- Copy mode (tmux emacs style)
 config.key_tables = {
   copy_mode = {
-    -- Movement
-    { key = "h",          mods = "NONE",  action = act.CopyMode "MoveLeft" },
-    { key = "j",          mods = "NONE",  action = act.CopyMode "MoveDown" },
-    { key = "k",          mods = "NONE",  action = act.CopyMode "MoveUp" },
-    { key = "l",          mods = "NONE",  action = act.CopyMode "MoveRight" },
-    { key = "0",          mods = "NONE",  action = act.CopyMode "MoveToStartOfLine" },
-    { key = "$",          mods = "NONE",  action = act.CopyMode "MoveToEndOfLineContent" },
-    { key = "w",          mods = "NONE",  action = act.CopyMode "MoveForwardWord" },
-    { key = "b",          mods = "NONE",  action = act.CopyMode "MoveBackwardWord" },
-    { key = "g",          mods = "NONE",  action = act.CopyMode "MoveToScrollbackTop" },
-    { key = "G",          mods = "SHIFT", action = act.CopyMode "MoveToScrollbackBottom" },
-    -- Arrow / page keys
-    { key = "UpArrow",    mods = "NONE",  action = act.CopyMode "MoveUp" },
-    { key = "DownArrow",  mods = "NONE",  action = act.CopyMode "MoveDown" },
-    { key = "LeftArrow",  mods = "NONE",  action = act.CopyMode "MoveLeft" },
-    { key = "RightArrow", mods = "NONE",  action = act.CopyMode "MoveRight" },
-    { key = "PageUp",     mods = "NONE",  action = act.CopyMode "PageUp" },
-    { key = "PageDown",   mods = "NONE",  action = act.CopyMode "PageDown" },
+    -- Character movement
+    { key = "f",          mods = "CTRL", action = act.CopyMode "MoveRight" },
+    { key = "b",          mods = "CTRL", action = act.CopyMode "MoveLeft" },
+    { key = "n",          mods = "CTRL", action = act.CopyMode "MoveDown" },
+    { key = "p",          mods = "CTRL", action = act.CopyMode "MoveUp" },
+    -- Line bounds
+    { key = "a",          mods = "CTRL", action = act.CopyMode "MoveToStartOfLine" },
+    { key = "e",          mods = "CTRL", action = act.CopyMode "MoveToEndOfLineContent" },
+    -- Paging
+    { key = "v",          mods = "CTRL", action = act.CopyMode "PageDown" },
+    { key = "v",          mods = "ALT",  action = act.CopyMode "PageUp" },
+    -- Word movement
+    { key = "f",          mods = "ALT",  action = act.CopyMode "MoveForwardWord" },
+    { key = "b",          mods = "ALT",  action = act.CopyMode "MoveBackwardWord" },
+    -- Scrollback bounds
+    { key = "<",          mods = "ALT",  action = act.CopyMode "MoveToScrollbackTop" },
+    { key = ">",          mods = "ALT",  action = act.CopyMode "MoveToScrollbackBottom" },
+    -- Hardware keys
+    { key = "UpArrow",    mods = "NONE", action = act.CopyMode "MoveUp" },
+    { key = "DownArrow",  mods = "NONE", action = act.CopyMode "MoveDown" },
+    { key = "LeftArrow",  mods = "NONE", action = act.CopyMode "MoveLeft" },
+    { key = "RightArrow", mods = "NONE", action = act.CopyMode "MoveRight" },
+    { key = "PageUp",     mods = "NONE", action = act.CopyMode "PageUp" },
+    { key = "PageDown",   mods = "NONE", action = act.CopyMode "PageDown" },
     -- Selection
-    { key = "Space",  mods = "NONE", action = act.CopyMode { SetSelectionMode = "Cell" } },
+    { key = "Space",      mods = "CTRL", action = act.CopyMode { SetSelectionMode = "Cell" } },
     -- Copy and exit
-    {
-      key = "Enter", mods = "NONE",
-      action = act.Multiple {
+    { key = "w",     mods = "CTRL", action = act.Multiple {
         act.CopyTo "ClipboardAndPrimarySelection",
         act.CopyMode "Close",
-      },
+      }
     },
-    -- Exit
+    -- Cancel / exit
     { key = "q",      mods = "NONE", action = act.CopyMode "Close" },
     { key = "Escape", mods = "NONE", action = act.CopyMode "Close" },
   },
